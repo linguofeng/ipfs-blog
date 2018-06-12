@@ -21,7 +21,8 @@
   },
   "scripts": {
     "start": "hexo server",
+    "build": "hexo generate",
     "preipfs": "hexo clean && hexo generate",
-    "ipfs": "ipfs name publish `ipfs add -rq public | tail -n 1`"
+    "ipfs": "ipfs name publish `ipfs add -rQ public > lastpubver && cat lastpubver`"
   }
 }

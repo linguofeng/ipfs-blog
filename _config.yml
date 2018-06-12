@@ -76,6 +76,7 @@ pagination_dir: page
 theme: artemis
 theme_config:
   logo:
+  favicon: favicon.png
   google_analytics:
   copyright:
     since: 2018
@@ -84,7 +85,7 @@ theme_config:
   menu:
     Home: /
     GitHub: https://github.com/linguofeng
-    RSS: /atom.xml
+    RSS: atom.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
